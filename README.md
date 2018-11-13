@@ -9,6 +9,8 @@ You can also get <script type="text/tiscript"> defined as typescript in intellij
 
 Notes:
 
+use the variable name evt for Event object typehinting in handler functions
+
 I haven't added stubs for the following (feel free to add a PR):
 - Behavior
 - Graphics
