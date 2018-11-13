@@ -12,8 +12,10 @@ Notes:
 tiscript class inheritance and function declaration breaks typescript syntax, so you won't get intellisense on any custom classes you create
 
 Try to use typescript compatible functions E.G.
-self.select() instead of self.$()
-self.ready = function() {} instead of function self.ready() {}
-dip(100) instead of 100dip
-function hashType(type) {return eval(type);} hashType("#view") instead of #view
-etc
+```
+    self.select() instead of self.$()
+    self.ready = function() {} instead of function self.ready() {}
+    dip(100) instead of 100dip
+    function hashType(type) {return eval(type);} hashType("#view") instead of #view
+    etc
+```
