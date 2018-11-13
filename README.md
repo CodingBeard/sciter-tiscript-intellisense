@@ -9,6 +9,15 @@ You can also get <script type="text/tiscript"> defined as typescript in intellij
 
 Notes:
 
+I haven't added stubs for the following (feel free to add a PR):
+- Behavior
+- Graphics
+- Image
+- Sciter
+- DataSocket
+- WebSocket
+- Tokenizer
+
 tiscript class inheritance and function declaration breaks typescript syntax, so you won't get intellisense on any custom classes you create
 
 Try to use typescript compatible functions E.G.
